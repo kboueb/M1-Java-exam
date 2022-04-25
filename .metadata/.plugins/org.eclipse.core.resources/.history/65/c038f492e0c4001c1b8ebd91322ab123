@@ -1,0 +1,69 @@
+package test;
+import java.util.*;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		ArrayList<Etudiant> listeEtudiant  = new ArrayList<Etudiant>();
+		ArrayList<Projet> listeProjet  = new ArrayList<Projet>();
+		ArrayList<Section> listeSection  = new ArrayList<Section>();
+		
+		int choix=0;
+		String nom, prenom, theme, nomSection;
+		int numEtudiant, numProjet, numSection;
+		
+		Etudiant etudiant = null;
+		Etudiant etd = null;
+		
+		do {
+			System.out.println("-----------------------");
+			System.out.println("1.Créer une section");
+			System.out.println("2.Créer un projet");
+			System.out.println("3.Créer un etudiant");
+			System.out.println("4.Lister les sections");
+			System.out.println("5.Lister les projets");
+			System.out.println("6.Lister les etudiants");
+			System.out.println("7.Afficher les étudiants d'une section donnée");
+			System.out.println("8.Afficher les étudiants qui travillent dans un projet donné");
+			System.out.println("9.Afficher pour chaque projet, les étudiants qui y travillent et leurs sections respectives");
+			System.out.println("10.Sortie");
+			System.out.println("-----------------------\n");
+			System.out.println("Votre choix?");
+			choix=sc.nextInt();
+			sc.nextLine();
+			
+			switch(choix) {
+				case 1:
+					break;
+				case 2:
+					break;
+				case 3:
+					break;
+				case 4:
+					break;
+				case 5:
+					break;
+				case 6:
+					break;
+				case 7:
+					break;
+				case 8:
+					break;
+				case 9:
+					break;
+				case 10:
+					break;
+				default:
+					System.out.println("!!  choix invalide !!");
+		    	    break;
+			}
+		}
+		while(choix!=10);
+		  System.out.println("Fin du programme");
+		
+
+	}
+
+}

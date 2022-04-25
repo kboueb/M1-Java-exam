@@ -1,0 +1,43 @@
+package test;
+import java.util.*;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		ArrayList<Etudiant> listeEtudiant  = new ArrayList<Etudiant>();
+		ArrayList<Projet> listeProjet  = new ArrayList<Projet>();
+		ArrayList<Section> listeSection  = new ArrayList<Section>();
+		
+		int choix=0;
+		String nom, prenom, theme, nomSection;
+		int numEtudiant, numProjet, numSection;
+		
+		Etudiant etudiant = null;
+		Etudiant etd = null;
+		
+		do {
+			System.out.println("-----------------------");
+			System.out.println("1.Créer une section");
+			System.out.println("2.Créer un projet");
+			System.out.println("3.Créer un etudiant");
+			System.out.println("4.Lister les sections");
+			System.out.println("5.Lister les projets");
+			System.out.println("6.Lister les etudiants");
+			System.out.println("7.Lister les projets");
+			System.out.println("8.Lister les projets");
+			System.out.println("9.Lister les projets");
+			System.out.println("10.Sortie");
+			System.out.println("-----------------------\n");
+			System.out.println("Votre choix?");
+			choix=sc.nextInt();
+			sc.nextLine();
+		}
+		while(choix!=10);
+		  System.out.println("Fin du programme");
+		
+
+	}
+
+}
